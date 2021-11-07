@@ -1,0 +1,20 @@
+{
+	"database": {
+		"rules": "database.rules.json"
+	},
+	"hosting": {
+		"site": "toriatova",
+		"public": "client",
+		"rewrites": [ {
+			"source": "**",
+			"function": "bigben"
+		  } ]
+	},
+	"firestore": {
+		"rules": "firestore.rules",
+		"indexes": "firestore.indexes.json"
+	},
+	"functions": {
+		"source": "functions"
+	  }
+}
