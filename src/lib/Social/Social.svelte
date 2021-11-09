@@ -3,13 +3,13 @@ import { gitHub, insta, linkedin } from "../../app/pictures";
 </script>
 
 <div class="social-block">
-    <a href="/">
+    <a href="https://github.com/Ellinsa">
         <img src={insta} alt="Insta" />
     </a>
-    <a href="/">
+    <a href="https://www.instagram.com/vika_lindeman_webdev">
         <img src={gitHub} alt="GitHub" />
     </a>
-    <a href="/">
+    <a href="https://www.linkedin.com/in/toriatovawebdev/">
         <img src={linkedin} alt="LinkedIn" />
     </a>
 </div>

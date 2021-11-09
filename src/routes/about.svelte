@@ -23,7 +23,7 @@
 <div class="content">
 	<div class="about ">
 		<img src={photo} alt="Me" class="photo ">
-		<p>Hi, I am a frontend web developer with two years of experience with an emphasis on <span class="react ">React</span> and <span class="svelte ">Svelte</span>. 
+		<p>Hi, My name is Viktoria and I am a frontend web developer with two years of experience with an emphasis on <span class="react ">React</span> and <span class="svelte ">Svelte</span>. 
 			I also have basic knowledge of Node.js, Vue and C#</p>
 	</div>
 	<div class="skills ">

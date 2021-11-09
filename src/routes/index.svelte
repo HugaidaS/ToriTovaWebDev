@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome to my portfolio!</h1>
+	<h1 id="logo">Welcome to my portfolio!</h1>
 </section>
 
 <style>
