@@ -23,7 +23,7 @@
 <div class="content">
 	<div class="about ">
 		<img src={photo} alt="Me" class="photo ">
-		<p>Hi, My name is Viktoria and I am a frontend web developer with two years of experience with an emphasis on <span class="react ">React</span> and <span class="svelte ">Svelte</span>. 
+		<p>Hi, my name is Viktoria and I am a frontend web developer with two years of experience with an emphasis on <span class="react ">React</span> and <span class="svelte ">Svelte</span>. 
 			I also have basic knowledge of Node.js, Vue and C#</p>
 	</div>
 	<div class="skills ">
@@ -39,7 +39,7 @@
 .skills { text-align: initial; margin: 0px; }
 .skills h2 { color: rgb(107, 164, 238); font-size: 1.5rem; margin: 0px; }
 .skills p { margin: 5px 0px; }
-.about { display: flex; flex-direction: row; align-items: center; font-size: 1.9rem; }
+.about { display: flex; flex-direction: row; align-items: center; font-size: 1.75rem; }
 .photo { height: 300px; width: 300px; border-radius: 10px; margin-right: 1.5rem; }
 .react { color: rgb(97, 218, 251); }
 .svelte { color: rgb(255, 62, 0); }
