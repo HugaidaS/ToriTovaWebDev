@@ -22,7 +22,7 @@
 		justify-content: center;
 		padding: 1rem;
 		width: 100%;
-		max-width: 1024px;
+		max-width: 1500px;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
