@@ -1,7 +1,6 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
 	import Project from '$lib/Projects/Project.svelte';
-	import { projects } from '../api/projects';
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
 	export const hydrate = dev;
@@ -11,6 +10,8 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
+	//let projects = Array(5).fill({})
+	import {projects} from "../api/projects"
 </script>
 
 <svelte:head>

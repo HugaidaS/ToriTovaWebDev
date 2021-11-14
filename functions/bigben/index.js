@@ -4880,12 +4880,12 @@ var init_dist = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Social-73a74de9.js
+// .svelte-kit/output/server/chunks/Social-b46ae493.js
 var home, gitHub, insta, linkedin, photo, css, Social;
-var init_Social_73a74de9 = __esm({
-  ".svelte-kit/output/server/chunks/Social-73a74de9.js"() {
+var init_Social_b46ae493 = __esm({
+  ".svelte-kit/output/server/chunks/Social-b46ae493.js"() {
     init_shims();
-    init_app_fdfa5d05();
+    init_app_8588596b();
     home = "/home.png";
     gitHub = "/github.png";
     insta = "/insta.png";
@@ -4905,17 +4905,17 @@ var init_Social_73a74de9 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-bbae2965.js
-var layout_bbae2965_exports = {};
-__export(layout_bbae2965_exports, {
+// .svelte-kit/output/server/chunks/__layout-65414f61.js
+var layout_65414f61_exports = {};
+__export(layout_65414f61_exports, {
   default: () => _layout
 });
 var import_cookie, getStores, page, css$1, Header, css2, _layout;
-var init_layout_bbae2965 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-bbae2965.js"() {
+var init_layout_65414f61 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-65414f61.js"() {
     init_shims();
-    init_app_fdfa5d05();
-    init_Social_73a74de9();
+    init_app_8588596b();
+    init_Social_b46ae493();
     import_cookie = __toModule(require_cookie());
     init_dist();
     getStores = () => {
@@ -4975,9 +4975,9 @@ var init_layout_bbae2965 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/error-f22ac566.js
-var error_f22ac566_exports = {};
-__export(error_f22ac566_exports, {
+// .svelte-kit/output/server/chunks/error-145d0146.js
+var error_145d0146_exports = {};
+__export(error_145d0146_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4985,10 +4985,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var import_cookie2, Error2;
-var init_error_f22ac566 = __esm({
-  ".svelte-kit/output/server/chunks/error-f22ac566.js"() {
+var init_error_145d0146 = __esm({
+  ".svelte-kit/output/server/chunks/error-145d0146.js"() {
     init_shims();
-    init_app_fdfa5d05();
+    init_app_8588596b();
     import_cookie2 = __toModule(require_cookie());
     init_dist();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5010,17 +5010,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-e64be962.js
-var index_e64be962_exports = {};
-__export(index_e64be962_exports, {
+// .svelte-kit/output/server/chunks/index-8c1b42ac.js
+var index_8c1b42ac_exports = {};
+__export(index_8c1b42ac_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var import_cookie3, css3, prerender, Routes;
-var init_index_e64be962 = __esm({
-  ".svelte-kit/output/server/chunks/index-e64be962.js"() {
+var init_index_8c1b42ac = __esm({
+  ".svelte-kit/output/server/chunks/index-8c1b42ac.js"() {
     init_shims();
-    init_app_fdfa5d05();
+    init_app_8588596b();
     import_cookie3 = __toModule(require_cookie());
     init_dist();
     css3 = {
@@ -5048,19 +5048,19 @@ var init_env_df325643 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/projects-7c6ee937.js
-var projects_7c6ee937_exports = {};
-__export(projects_7c6ee937_exports, {
+// .svelte-kit/output/server/chunks/projects-eaab5dc4.js
+var projects_eaab5dc4_exports = {};
+__export(projects_eaab5dc4_exports, {
   default: () => Projects,
   hydrate: () => hydrate,
   prerender: () => prerender2,
   router: () => router
 });
 var import_cookie4, projects, css$12, Project, css4, hydrate, router, prerender2, Projects;
-var init_projects_7c6ee937 = __esm({
-  ".svelte-kit/output/server/chunks/projects-7c6ee937.js"() {
+var init_projects_eaab5dc4 = __esm({
+  ".svelte-kit/output/server/chunks/projects-eaab5dc4.js"() {
     init_shims();
-    init_app_fdfa5d05();
+    init_app_8588596b();
     init_env_df325643();
     import_cookie4 = __toModule(require_cookie());
     init_dist();
@@ -5070,21 +5070,21 @@ var init_projects_7c6ee937 = __esm({
         github: "https://github.com/Ellinsa/blog-application-template",
         name: "Blog application",
         description: "A simple blog app with pagination and form (React,SCSS,TypeScript)",
-        img: ""
+        img: "/blogwebsite.png"
       },
       {
         src: "https://ellinsa.github.io/montageWEB/",
         github: "https://github.com/Ellinsa/montageWEB",
         name: "Montage Landing page",
         description: "A landing page for the local russian company",
-        img: ""
+        img: "/montagewebsite.png"
       },
       {
         src: "https://toriatova.web.app/",
         github: "https://github.com/Ellinsa/ToriTovaWebDev",
         name: "My portfolio",
         description: "My portfolio website (Svelte, Firebase)",
-        img: ""
+        img: "/myportfolio.png"
       },
       {
         src: "",
@@ -5123,7 +5123,7 @@ var init_projects_7c6ee937 = __esm({
       }
     ];
     css$12 = {
-      code: ".card-wrapper.svelte-ors02n{margin:1rem;background-color:var(--pure-white);height:250px;width:300px;z-index:1;color:black}.card-content.svelte-ors02n{background-color:#0000007c;color:bisque;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;border-radius:4px}.card-wrapper{opacity:.9;transition:all .4s ;cursor:pointer;border-radius:4px}.card-wrapper:hover{opacity:1;transform:scale(1.07) }",
+      code: ".card-wrapper.svelte-1abj3ew{margin:1rem;background-color:var(--pure-white);height:250px;width:300px;z-index:1;color:black;background-position:center;background-repeat:no-repeat;background-size:cover}.card-content.svelte-1abj3ew{background-color:#1b1922e7;color:bisque;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--accent-color);height:100%;width:100%}.card-wrapper{opacity:.9;transition:all .4s ;cursor:pointer;border-radius:4px}.card-wrapper:hover{opacity:1;transform:scale(1.07) }",
       map: null
     };
     Project = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5131,9 +5131,8 @@ var init_projects_7c6ee937 = __esm({
       if ($$props.project === void 0 && $$bindings.project && project !== void 0)
         $$bindings.project(project);
       $$result.css.add(css$12);
-      return `
-
-<div class="${"card-wrapper svelte-ors02n"}"><div class="${["svelte-ors02n", ""].join(" ").trim()}">${``}</div></div>
+      return `<div class="${"card-wrapper svelte-1abj3ew"}" style="${"background-image: url(" + escape(project.img) + ");"}"><div class="${["svelte-1abj3ew", ""].join(" ").trim()}">
+		${``}</div></div>
 
  
 `;
@@ -5155,20 +5154,20 @@ var init_projects_7c6ee937 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/about-cad7cd7d.js
-var about_cad7cd7d_exports = {};
-__export(about_cad7cd7d_exports, {
+// .svelte-kit/output/server/chunks/about-5fc4d589.js
+var about_5fc4d589_exports = {};
+__export(about_5fc4d589_exports, {
   default: () => About,
   hydrate: () => hydrate2,
   prerender: () => prerender3,
   router: () => router2
 });
 var import_cookie5, css5, hydrate2, router2, prerender3, About;
-var init_about_cad7cd7d = __esm({
-  ".svelte-kit/output/server/chunks/about-cad7cd7d.js"() {
+var init_about_5fc4d589 = __esm({
+  ".svelte-kit/output/server/chunks/about-5fc4d589.js"() {
     init_shims();
-    init_app_fdfa5d05();
-    init_Social_73a74de9();
+    init_app_8588596b();
+    init_Social_b46ae493();
     init_env_df325643();
     import_cookie5 = __toModule(require_cookie());
     init_dist();
@@ -5193,7 +5192,7 @@ var init_about_cad7cd7d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-fdfa5d05.js
+// .svelte-kit/output/server/chunks/app-8588596b.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -6471,9 +6470,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-e3d0919f.js",
+      file: assets + "/_app/start-a2f20fd4.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-e3d0919f.js", assets + "/_app/chunks/vendor-2b1455dd.js"]
+      js: [assets + "/_app/start-a2f20fd4.js", assets + "/_app/chunks/vendor-406d3c29.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6517,8 +6516,8 @@ function render(request, {
   return respond(__spreadProps(__spreadValues({}, request), { host }), options, { prerender: prerender4 });
 }
 var import_cookie6, __accessCheck2, __privateGet2, __privateAdd2, __privateSet2, _map, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, absolute, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css6, Root, base, assets, handle, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_fdfa5d05 = __esm({
-  ".svelte-kit/output/server/chunks/app-fdfa5d05.js"() {
+var init_app_8588596b = __esm({
+  ".svelte-kit/output/server/chunks/app-8588596b.js"() {
     init_shims();
     import_cookie6 = __toModule(require_cookie());
     init_dist();
@@ -6703,7 +6702,7 @@ ${``}`;
     default_settings = { paths: { "base": "", "assets": "" } };
     empty = () => ({});
     manifest = {
-      assets: [{ "file": "blogwebsite.png", "size": 16275, "type": "image/png" }, { "file": "github.png", "size": 3081, "type": "image/png" }, { "file": "home.png", "size": 1471, "type": "image/png" }, { "file": "insta.png", "size": 1941, "type": "image/png" }, { "file": "linkedin.png", "size": 1279, "type": "image/png" }, { "file": "me.png", "size": 1768, "type": "image/png" }, { "file": "montagewebsite.png", "size": 314883, "type": "image/png" }, { "file": "myportfolio.png", "size": 19810, "type": "image/png" }, { "file": "photo.jpg", "size": 46855, "type": "image/jpeg" }, { "file": "robots.txt", "size": 67, "type": "text/plain" }],
+      assets: [{ "file": "blogwebsite.png", "size": 16275, "type": "image/png" }, { "file": "github.png", "size": 3081, "type": "image/png" }, { "file": "home.png", "size": 1471, "type": "image/png" }, { "file": "insta.png", "size": 1941, "type": "image/png" }, { "file": "linkedin.png", "size": 1279, "type": "image/png" }, { "file": "me.png", "size": 1768, "type": "image/png" }, { "file": "montagewebsite.png", "size": 314883, "type": "image/png" }, { "file": "myportfolio.png", "size": 19810, "type": "image/png" }, { "file": "photo.jpg", "size": 46855, "type": "image/jpeg" }],
       layout: "src/routes/__layout.svelte",
       error: ".svelte-kit/build/components/error.svelte",
       routes: [
@@ -6737,13 +6736,13 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_bbae2965(), layout_bbae2965_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_f22ac566(), error_f22ac566_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_e64be962(), index_e64be962_exports)),
-      "src/routes/projects.svelte": () => Promise.resolve().then(() => (init_projects_7c6ee937(), projects_7c6ee937_exports)),
-      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_cad7cd7d(), about_cad7cd7d_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_65414f61(), layout_65414f61_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_145d0146(), error_145d0146_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_8c1b42ac(), index_8c1b42ac_exports)),
+      "src/routes/projects.svelte": () => Promise.resolve().then(() => (init_projects_eaab5dc4(), projects_eaab5dc4_exports)),
+      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_5fc4d589(), about_5fc4d589_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-e05265e5.js", "css": ["assets/pages/__layout.svelte-925f9166.css", "assets/Social-1e2ca325.css"], "js": ["pages/__layout.svelte-e05265e5.js", "chunks/vendor-2b1455dd.js", "chunks/Social-8ea954b1.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-e9676b9d.js", "css": [], "js": ["error.svelte-e9676b9d.js", "chunks/vendor-2b1455dd.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-880cf7fe.js", "css": ["assets/pages/index.svelte-01e91ec6.css"], "js": ["pages/index.svelte-880cf7fe.js", "chunks/vendor-2b1455dd.js"], "styles": [] }, "src/routes/projects.svelte": { "entry": "pages/projects.svelte-f2c1d3f0.js", "css": ["assets/pages/projects.svelte-1227c63a.css"], "js": ["pages/projects.svelte-f2c1d3f0.js", "chunks/vendor-2b1455dd.js", "chunks/env-a13806e5.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-4c6466a6.js", "css": ["assets/pages/about.svelte-d8630838.css", "assets/Social-1e2ca325.css"], "js": ["pages/about.svelte-4c6466a6.js", "chunks/vendor-2b1455dd.js", "chunks/Social-8ea954b1.js", "chunks/env-a13806e5.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-c521d019.js", "css": ["assets/pages/__layout.svelte-925f9166.css", "assets/Social-1e2ca325.css"], "js": ["pages/__layout.svelte-c521d019.js", "chunks/vendor-406d3c29.js", "chunks/Social-1cea4e82.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-f0d546b5.js", "css": [], "js": ["error.svelte-f0d546b5.js", "chunks/vendor-406d3c29.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-f1135f71.js", "css": ["assets/pages/index.svelte-01e91ec6.css"], "js": ["pages/index.svelte-f1135f71.js", "chunks/vendor-406d3c29.js"], "styles": [] }, "src/routes/projects.svelte": { "entry": "pages/projects.svelte-7a40e0d2.js", "css": ["assets/pages/projects.svelte-55349721.css"], "js": ["pages/projects.svelte-7a40e0d2.js", "chunks/vendor-406d3c29.js", "chunks/env-a13806e5.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-3d35a5ca.js", "css": ["assets/pages/about.svelte-d8630838.css", "assets/Social-1e2ca325.css"], "js": ["pages/about.svelte-3d35a5ca.js", "chunks/vendor-406d3c29.js", "chunks/Social-1cea4e82.js", "chunks/env-a13806e5.js"], "styles": [] } };
   }
 });
 
@@ -6760,7 +6759,7 @@ __export(app_exports, {
   render: () => render
 });
 init_shims();
-init_app_fdfa5d05();
+init_app_8588596b();
 var import_cookie7 = __toModule(require_cookie());
 init_dist();
 

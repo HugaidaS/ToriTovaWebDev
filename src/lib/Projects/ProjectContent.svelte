@@ -27,10 +27,8 @@
     <slot name="description">
         <p class="description">Unknown description</p>
     </slot>
-    <slot name="action-buttons">
         <div class="action-buttons">
             <div>First button</div>
             <div>Second button</div>
         </div>
-    </slot>
 </div>
