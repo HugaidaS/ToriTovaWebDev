@@ -11,7 +11,10 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 	//let projects = Array(5).fill({})
-	import {projects} from "../api/projects"
+</script>
+
+<script>
+	import { queryForDocuments } from "../api/initializeApp";
 </script>
 
 <svelte:head>
@@ -19,9 +22,15 @@
 </svelte:head>
 
 <div class="content">
-	{#each projects as project}
+	{#await queryForDocuments()}
+		<p>...waiting</p>
+	{:then projects}
+		{#each projects as project}
 		 <Project project={project}/>
-	{/each}
+		{/each}
+	{:catch error}
+		<p style="color: red">Error</p>
+	{/await}
 </div>
 
 <style>
@@ -35,5 +44,4 @@
 		align-items: center;
 		text-align: center;	
 	}
-
 </style>

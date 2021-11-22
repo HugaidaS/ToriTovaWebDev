@@ -11,13 +11,6 @@
         height: 100%;
         justify-content: space-evenly;
     }
-    .action-buttons{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 100%;
-    }
 </style>
 
 <div class="content-wrapper" in:scale="{{ duration: 1000 }}" out:scale>
@@ -27,8 +20,7 @@
     <slot name="description">
         <p class="description">Unknown description</p>
     </slot>
-        <div class="action-buttons">
-            <div>First button</div>
-            <div>Second button</div>
-        </div>
+    <slot name="action-buttons">
+        <span>No action</span>
+    </slot>
 </div>

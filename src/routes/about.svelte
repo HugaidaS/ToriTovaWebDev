@@ -1,7 +1,7 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
 	import Social from '$lib/Social/Social.svelte';
-	import { home, photo } from '../app/pictures';
+	import { photo } from '../api/pictures';
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -21,8 +21,8 @@
 </svelte:head>
 
 <div class="content">
-	<div class="about ">
-		<img src={photo} alt="Me" class="photo ">
+	<div class="about">
+		 <img src={photo} alt="Me" class="photo ">
 		<p>Hi, my name is Viktoria and I am a frontend web developer with two years of experience with an emphasis on <span class="react ">React</span> and <span class="svelte ">Svelte</span>. 
 			I also have basic knowledge of Node.js, Vue and C#</p>
 	</div>

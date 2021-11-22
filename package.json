@@ -10,7 +10,6 @@
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"deploy": "firebase deploy --only hosting:toriatova "
-		
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
@@ -33,6 +32,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@lukeed/uuid": "^2.0.0",
+		"axios": "^0.24.0",
 		"cookie": "^0.4.1",
 		"firebase": "^9.3.0"
 	}

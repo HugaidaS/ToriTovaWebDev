@@ -1,12 +1,12 @@
 <script>
-import { gitHub, insta, linkedin } from "../../app/pictures";
+import { gitHub, insta, linkedin } from "../../api/pictures";
 </script>
 
 <div class="social-block">
-    <a href="https://github.com/Ellinsa">
+    <a href="https://www.instagram.com/vika_lindeman_webdev">
         <img src={insta} alt="Insta" />
     </a>
-    <a href="https://www.instagram.com/vika_lindeman_webdev">
+    <a href="https://github.com/Ellinsa">
         <img src={gitHub} alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com/in/toriatovawebdev/">
