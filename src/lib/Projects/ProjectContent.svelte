@@ -1,5 +1,5 @@
 <script>
-    import { scale } from 'svelte/transition';
+    import { fade,scale } from 'svelte/transition';
 </script>
 
 <style>
@@ -13,7 +13,7 @@
     }
 </style>
 
-<div class="content-wrapper" in:scale="{{ duration: 1000 }}" out:scale>
+<div class="content-wrapper" in:fade="{{ duration: 1000 }}" out:scale>
     <slot name="header">
         <p class="header">Unknown header</p>
     </slot>

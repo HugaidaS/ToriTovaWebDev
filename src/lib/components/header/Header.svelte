@@ -1,7 +1,7 @@
 <script>
 import { page } from '$app/stores';
 import Social from '$lib/Social/Social.svelte';
-import { home } from "../../api/pictures";
+import { home } from "../../../api/pictures";
 </script>
 
 <header>

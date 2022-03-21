@@ -6275,7 +6275,7 @@ function add_attribute(name2, value, boolean) {
 }
 function afterUpdate() {
 }
-var css$7 = {
+var css$8 = {
   code: "#svelte-announcer.svelte-1j55zn5{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}",
   map: null
 };
@@ -6300,7 +6300,7 @@ var Root = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.props_1(props_1);
   if ($$props.props_2 === void 0 && $$bindings.props_2 && props_2 !== void 0)
     $$bindings.props_2(props_2);
-  $$result.css.add(css$7);
+  $$result.css.add(css$8);
   {
     stores.page.set(page2);
   }
@@ -6354,9 +6354,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-838970bf.js",
+      file: assets + "/_app/start-d398bc7b.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-838970bf.js", assets + "/_app/chunks/vendor-fa0c4324.js"]
+      js: [assets + "/_app/start-d398bc7b.js", assets + "/_app/chunks/vendor-f237ac7c.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6385,7 +6385,7 @@ function init(settings = default_settings) {
 }
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "blogwebsite.png", "size": 16275, "type": "image/png" }, { "file": "github.png", "size": 3081, "type": "image/png" }, { "file": "home.png", "size": 1471, "type": "image/png" }, { "file": "insta.png", "size": 1941, "type": "image/png" }, { "file": "linkedin.png", "size": 1279, "type": "image/png" }, { "file": "me.png", "size": 1768, "type": "image/png" }, { "file": "montagewebsite.png", "size": 314883, "type": "image/png" }, { "file": "myportfolio.png", "size": 19810, "type": "image/png" }, { "file": "photo.jpg", "size": 46855, "type": "image/jpeg" }],
+  assets: [{ "file": "blogwebsite.png", "size": 16275, "type": "image/png" }, { "file": "github.png", "size": 3081, "type": "image/png" }, { "file": "home.png", "size": 1471, "type": "image/png" }, { "file": "insta.png", "size": 1941, "type": "image/png" }, { "file": "linkedin.png", "size": 1279, "type": "image/png" }, { "file": "marvelApp.png", "size": 1683087, "type": "image/png" }, { "file": "me.png", "size": 1768, "type": "image/png" }, { "file": "montagewebsite.png", "size": 314883, "type": "image/png" }, { "file": "myportfolio.png", "size": 19810, "type": "image/png" }, { "file": "photo.jpg", "size": 46855, "type": "image/jpeg" }, { "file": "rickApp.png", "size": 484029, "type": "image/png" }, { "file": "rickLoader.jpg", "size": 48477, "type": "image/jpeg" }, { "file": "rickLoader.png", "size": 380891, "type": "image/png" }, { "file": "solarApp.png", "size": 113588, "type": "image/png" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -6435,7 +6435,7 @@ var module_lookup = {
     return about;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-aa12040b.js", "css": ["assets/pages/__layout.svelte-925f9166.css", "assets/Social-1e2ca325.css"], "js": ["pages/__layout.svelte-aa12040b.js", "chunks/vendor-fa0c4324.js", "chunks/Social-0955adab.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-6809e9bd.js", "css": [], "js": ["error.svelte-6809e9bd.js", "chunks/vendor-fa0c4324.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-2be3f56d.js", "css": ["assets/pages/index.svelte-01e91ec6.css"], "js": ["pages/index.svelte-2be3f56d.js", "chunks/vendor-fa0c4324.js"], "styles": [] }, "src/routes/projects.svelte": { "entry": "pages/projects.svelte-924bd36f.js", "css": ["assets/pages/projects.svelte-23f1a470.css"], "js": ["pages/projects.svelte-924bd36f.js", "chunks/vendor-fa0c4324.js", "chunks/env-a13806e5.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-6156e753.js", "css": ["assets/pages/about.svelte-d8630838.css", "assets/Social-1e2ca325.css"], "js": ["pages/about.svelte-6156e753.js", "chunks/vendor-fa0c4324.js", "chunks/Social-0955adab.js", "chunks/env-a13806e5.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-3abdb070.js", "css": ["assets/pages/__layout.svelte-925f9166.css", "assets/Social-1e2ca325.css"], "js": ["pages/__layout.svelte-3abdb070.js", "chunks/vendor-f237ac7c.js", "chunks/Social-95ed3f59.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-ce011586.js", "css": [], "js": ["error.svelte-ce011586.js", "chunks/vendor-f237ac7c.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-88b812ed.js", "css": ["assets/pages/index.svelte-01e91ec6.css"], "js": ["pages/index.svelte-88b812ed.js", "chunks/vendor-f237ac7c.js"], "styles": [] }, "src/routes/projects.svelte": { "entry": "pages/projects.svelte-56d0ed59.js", "css": ["assets/pages/projects.svelte-8d4cd313.css"], "js": ["pages/projects.svelte-56d0ed59.js", "chunks/vendor-f237ac7c.js", "chunks/env-a13806e5.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-f4030636.js", "css": ["assets/pages/about.svelte-d8630838.css", "assets/Social-1e2ca325.css"], "js": ["pages/about.svelte-f4030636.js", "chunks/vendor-f237ac7c.js", "chunks/Social-95ed3f59.js", "chunks/env-a13806e5.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js: js2, styles } = metadata_lookup[file];
   return {
@@ -6482,26 +6482,25 @@ var home = "https://firebasestorage.googleapis.com/v0/b/lofi-dreamer.appspot.com
 var gitHub = "https://firebasestorage.googleapis.com/v0/b/lofi-dreamer.appspot.com/o/github.png?alt=media&token=339361c0-6ea0-4716-a460-d532aff93ee5";
 var insta = "https://firebasestorage.googleapis.com/v0/b/lofi-dreamer.appspot.com/o/insta.png?alt=media&token=50823e00-6e65-4f57-bdc9-9f048ccccae9";
 var linkedin = "https://firebasestorage.googleapis.com/v0/b/lofi-dreamer.appspot.com/o/linkedin.png?alt=media&token=1ea7ca7a-86e8-47fc-97a7-99343f610b2d";
-var photo = "https://firebasestorage.googleapis.com/v0/b/lofi-dreamer.appspot.com/o/photo.jpg?alt=media&token=f11f1c72-226d-4e10-8fd6-1981477ad460";
-var css$6 = {
+var css$7 = {
   code: ".social-block.svelte-qlqy68{height:3em;display:flex;flex-direction:row}img.svelte-qlqy68{width:2.5em;height:2.5em;object-fit:contain}",
   map: null
 };
 var Social = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$6);
+  $$result.css.add(css$7);
   return `<div class="${"social-block svelte-qlqy68"}"><a href="${"https://www.instagram.com/vika_lindeman_webdev"}"><img${add_attribute("src", insta, 0)} alt="${"Insta"}" class="${"svelte-qlqy68"}"></a>
     <a href="${"https://github.com/Ellinsa"}"><img${add_attribute("src", gitHub, 0)} alt="${"GitHub"}" class="${"svelte-qlqy68"}"></a>
     <a href="${"https://www.linkedin.com/in/toriatovawebdev/"}"><img${add_attribute("src", linkedin, 0)} alt="${"LinkedIn"}" class="${"svelte-qlqy68"}"></a>
 </div>`;
 });
-var css$5 = {
+var css$6 = {
   code: "header.svelte-gpku4u.svelte-gpku4u{display:flex;justify-content:space-between;height:4rem;align-items:center}.corner.svelte-gpku4u.svelte-gpku4u{width:3em;height:3em;display:flex;align-items:center;justify-content:center;width:fit-content;height:100%}nav.svelte-gpku4u.svelte-gpku4u{display:flex;justify-content:center;margin-left:9.9rem}ul.svelte-gpku4u.svelte-gpku4u{position:relative;padding:0;margin:0;height:3em;display:flex;justify-content:center;align-items:center;list-style:none;background:var(--background);background-size:contain}li.svelte-gpku4u.svelte-gpku4u{position:relative;height:100%}.active.svelte-gpku4u a.svelte-gpku4u{color:var(--accent-color)}img.svelte-gpku4u.svelte-gpku4u{width:2.5em;height:2.5em;object-fit:contain}nav.svelte-gpku4u a.svelte-gpku4u{display:flex;height:100%;align-items:center;padding:0 1em;color:var(--heading-color);font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;text-decoration:none;transition:color 0.2s linear}a.svelte-gpku4u.svelte-gpku4u:hover{color:var(--accent-color)}@media(max-width: 720px){nav.svelte-gpku4u.svelte-gpku4u{margin-left:0}.corner.social.svelte-gpku4u.svelte-gpku4u{display:none}}",
   map: null
 };
 var Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
-  $$result.css.add(css$5);
+  $$result.css.add(css$6);
   $$unsubscribe_page();
   return `<header class="${"svelte-gpku4u"}"><div class="${"corner svelte-gpku4u"}"><div class="${"corner svelte-gpku4u"}"><a href="${"/"}" class="${"svelte-gpku4u"}"><img${add_attribute("src", home, 0)} alt="${"Home"}" class="${"svelte-gpku4u"}"></a></div></div>
 
@@ -6511,12 +6510,12 @@ var Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	<div class="${"corner social svelte-gpku4u"}">${validate_component(Social, "Social").$$render($$result, {}, {}, {})}</div>
 </header>`;
 });
-var css$4 = {
+var css$5 = {
   code: "main.svelte-16jp10u.svelte-16jp10u{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem;width:100%;max-width:1500px;margin:0 auto;box-sizing:border-box}footer.svelte-16jp10u.svelte-16jp10u{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:40px;opacity:0.1}footer.svelte-16jp10u a.svelte-16jp10u{font-weight:bold}@media(min-width: 480px){footer.svelte-16jp10u.svelte-16jp10u{padding:40px 0}}",
   map: null
 };
 var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$4);
+  $$result.css.add(css$5);
   return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
 
 <main class="${"svelte-16jp10u"}">${slots.default ? slots.default({}) : ``}</main>
@@ -6554,13 +6553,13 @@ var error = /* @__PURE__ */ Object.freeze({
   "default": Error$1,
   load
 });
-var css$3 = {
+var css$4 = {
   code: "@import url('https://fonts.googleapis.com/css?family=Montserrat');section.svelte-v6dgnx{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}.title.svelte-v6dgnx{background:url(https://media3.giphy.com/media/LUxTEh4UHV7DFgvVM3/giphy.gif?cid=790b7611cea78ada1c1b90d49f94344538cf0d30c74655da&rid=giphy.gif);background-size:contain;-webkit-background-clip:text;background-clip:text;color:transparent;text-transform:uppercase;font-size:6rem;line-height:1.1}@media(max-width: 720px){.title.svelte-v6dgnx{font-size:2rem}}",
   map: null
 };
 var prerender$2 = true;
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$3);
+  $$result.css.add(css$4);
   return `${$$result.head += `${$$result.title = `<title>ToriaTova.Dev</title>`, ""}`, ""}
 
 <section class="${"svelte-v6dgnx"}"><div><h1 class="${"title svelte-v6dgnx"}">Welcome to my portfolio!</h1></div>
@@ -6572,7 +6571,7 @@ var index = /* @__PURE__ */ Object.freeze({
   "default": Routes,
   prerender: prerender$2
 });
-var css$2 = {
+var css$3 = {
   code: ".card-wrapper.svelte-1izpd4p{margin:1rem;background-color:var(--pure-white);height:250px;width:300px;z-index:1;color:black;background-position:center;background-repeat:no-repeat;background-size:cover}.card-content.svelte-1izpd4p{background-color:#1b1922e7;color:bisque;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--accent-color);height:100%;width:100%}.action-buttons.svelte-1izpd4p{width:100%;display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-around}.card-wrapper{opacity:.9;transition:all .4s ;cursor:pointer;border-radius:4px}.card-wrapper:hover{opacity:1;transform:scale(1.07) }",
   map: null
 };
@@ -6580,12 +6579,21 @@ var Project = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { project } = $$props;
   if ($$props.project === void 0 && $$bindings.project && project !== void 0)
     $$bindings.project(project);
-  $$result.css.add(css$2);
+  $$result.css.add(css$3);
   return `<div class="${"card-wrapper svelte-1izpd4p"}" style="${"background-image: url(" + escape(project.img) + ");"}"><div class="${["svelte-1izpd4p", ""].join(" ").trim()}">
 		${``}</div></div>
 
  
 `;
+});
+var css$2 = {
+  code: ".loader.svelte-1k5cjbm{display:flex;flex-direction:column;height:300px;width:300px}img.svelte-1k5cjbm{border-radius:50%}",
+  map: null
+};
+var Loader = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css$2);
+  return `<div class="${"loader svelte-1k5cjbm"}"><img src="${"./rickLoader.jpg"}" alt="${"loader"}" class="${"svelte-1k5cjbm"}">
+	<p>...hacking secret alien database</p></div>`;
 });
 var Deferred = class {
   constructor() {
@@ -14979,7 +14987,7 @@ var Projects = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     if (is_promise(__value)) {
       __value.then(null, noop);
       return `
-		<p>...waiting</p>
+	${validate_component(Loader, "Loader").$$render($$result, {}, {}, {})}
 	`;
     }
     return function(projects2) {
@@ -15009,10 +15017,10 @@ var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${$$result.head += `${$$result.title = `<title>About Me</title>`, ""}`, ""}
 
-<div class="${"content svelte-1woc8oq"}"><div class="${"about svelte-1woc8oq"}"><img${add_attribute("src", photo, 0)} alt="${"Me"}" class="${"photo  svelte-1woc8oq"}">
+<div class="${"content svelte-1woc8oq"}"><div class="${"about svelte-1woc8oq"}"><img src="${"./photo.jpg"}" alt="${"Me"}" class="${"photo  svelte-1woc8oq"}">
 		<p>Hi, my name is Viktoria and I am a frontend web developer with two years of experience with an emphasis on <span class="${"react  svelte-1woc8oq"}">React</span> and <span class="${"svelte  svelte-1woc8oq"}">Svelte</span>. 
 			I also have basic knowledge of Node.js, Vue and C#</p></div>
-	<div class="${"skills  svelte-1woc8oq"}"><h2 class="${" svelte-1woc8oq"}">Skills:</h2> <p class="${" svelte-1woc8oq"}">HTML / CSS / SCSS / Javascript / Typescript / React / Svelte / Tailwind / Git</p></div>
+	<div class="${"skills  svelte-1woc8oq"}"><h2 class="${" svelte-1woc8oq"}">Skills:</h2> <p class="${" svelte-1woc8oq"}">HTML / CSS / SCSS / Javascript / Typescript / React / Material UI/ Next/ Firebase/ Svelte / Tailwind / Git</p></div>
 	<div class="${"about-social svelte-1woc8oq"}">${validate_component(Social, "Social").$$render($$result, {}, {}, {})}</div>
 </div>`;
 });

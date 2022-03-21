@@ -1,5 +1,6 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
+	import Loader from '$lib/components/Loader/Loader.svelte';
 	import Project from '$lib/Projects/Project.svelte';
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -14,7 +15,8 @@
 </script>
 
 <script>
-	import { queryForDocuments } from "../api/initializeApp";
+
+import { queryForDocuments } from "../api/initializeApp";
 </script>
 
 <svelte:head>
@@ -23,7 +25,7 @@
 
 <div class="content">
 	{#await queryForDocuments()}
-		<p>...waiting</p>
+	<Loader/>
 	{:then projects}
 		{#each projects as project}
 		 <Project project={project}/>
