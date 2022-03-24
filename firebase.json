@@ -5,6 +5,12 @@
 	"hosting": {
 		"site": "toriatova",
 		"public": "client",
+		
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
 		"rewrites": [ {
 			"source": "**",
 			"function": "bigben"

@@ -15,6 +15,6 @@
 </style>
 
 <div class="loader">
-	<img src="./rickLoader.jpg" alt="loader">
+	<img src="/rickLoader.jpg" alt="loader">
 	<p>...hacking secret alien database</p>
 </div>
