@@ -3,6 +3,7 @@ node_modules
 /build
 /.svelte-kit
 /package
-/src/api
+/src/api/initializeApp.js
 /client/*
+/.idea
 

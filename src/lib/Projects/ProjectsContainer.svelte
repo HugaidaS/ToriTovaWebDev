@@ -1,11 +1,11 @@
 <script>
-import Loader from '$lib/components/Loader/Loader.svelte';
+	import Loader from '$lib/components/Loader/Loader.svelte';
 
-import { queryForDocuments } from '../../api/initializeApp';
-import { onMount } from 'svelte';
-import Project from './Project.svelte';
+	import { queryForDocuments } from '../../api/functions.js';
+	import { onMount } from 'svelte';
+	import Project from './Project.svelte';
 
-    let projects = []
+	let projects = [];
 
 	onMount(async () => {
 		projects = await queryForDocuments();
@@ -14,11 +14,11 @@ import Project from './Project.svelte';
 </script>
 
 <div class="content">
-    {#each projects as project}
-    <Project project={project}/>
-   {:else}
-    <Loader/>
-   {/each}
+	{#each projects as project}
+		<Project project={project} />
+	{:else}
+		<Loader />
+	{/each}
 </div>
 
 <style>
@@ -30,6 +30,6 @@ import Project from './Project.svelte';
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		text-align: center;	
+		text-align: center;
 	}
 </style>

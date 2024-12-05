@@ -1,28 +1,27 @@
 <script>
-import { page } from '$app/stores';
-import Social from '$lib/Social/Social.svelte';
-import { home } from "../../../api/pictures";
+	import { page } from '$app/stores';
+	import Social from '$lib/Social/Social.svelte';
 </script>
 
 <header>
 	<div class="corner">
 		<div class="corner">
 			<a href="/">
-				<img src={home} alt="Home" />
+				<img src='/home.png' alt="Home" />
 			</a>
 		</div>
 	</div>
 
 	<nav>
 		<ul>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href='/about'>About Me</a></li>
-			<li class:active={$page.path === '/projects'}><a sveltekit:prefetch href='/projects'>Projects</a></li>
+			<li class:active={$page.path === '/about'}><a href='/about'>About Me</a></li>
+			<li class:active={$page.path === '/projects'}><a href='/projects'>Projects</a></li>
 		</ul>
 
 	</nav>
 
 	<div class="corner social">
-		<Social/>
+		<Social />
 	</div>
 </header>
 
@@ -67,10 +66,12 @@ import { home } from "../../../api/pictures";
 		position: relative;
 		height: 100%;
 	}
-	.active a{
+
+	.active a {
 		color: var(--accent-color);
 	}
-	img{
+
+	img {
 		width: 2.5em;
 		height: 2.5em;
 		object-fit: contain;
@@ -93,12 +94,14 @@ import { home } from "../../../api/pictures";
 	a:hover {
 		color: var(--accent-color);
 	}
-	@media (max-width: 720px){
-		nav{
+
+	@media (max-width: 720px) {
+		nav {
 			margin-left: 0;
 		}
+
 		.corner.social {
-            display: none;
-        }
+			display: none;
+		}
 	}
 </style>

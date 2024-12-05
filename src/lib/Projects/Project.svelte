@@ -31,6 +31,11 @@
 		width: 100%;
 	}
 
+  .description {
+	  font-size: 16px;
+		max-width: 80%;
+  }
+
 	.action-buttons{
 		width: 100%;
 		display: flex;
@@ -49,7 +54,7 @@
 			{#if project.name}
 				<ProjectContent>
 					<p slot="header">{project.name}</p>
-					<p slot="description">{project.description}</p>
+					<p slot="description" class="description">{project.description}</p>
 					<div slot="action-buttons" class="action-buttons">
 						<a href={project.src}>View Website</a>
 						<a href={project.github}>Source Code</a>
@@ -62,5 +67,5 @@
 	</div>
 </div>
 
- 
+
 <!-- markup (zero or more items) goes here -->
